@@ -1,0 +1,79 @@
+body {
+  font-family: "Cairo", sans-serif;
+  background: #121212;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.menu-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 40px;
+  background: #1e1e1e;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.8);
+  text-align: center;
+}
+
+.menu-container h1 {
+  font-size: 36px;
+  color: #f1c40f;
+  margin-bottom: 10px;
+  text-shadow: 0 0 8px rgba(241,196,15,0.6);
+}
+
+.slogan {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #ccc;
+  font-style: italic;
+}
+
+.menu-section {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.menu-section h2 {
+  color: #f1c40f;
+  border-bottom: 1px solid #444;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.menu-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-section li {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px dotted #444;
+}
+
+.dots {
+  flex-grow: 1;
+  border-bottom: 1px dotted #444;
+  margin: 0 10px;
+}
+
+.price {
+  color: #f1c40f;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #bbb;
+  padding-top: 10px;
+  border-top: 1px solid #444;
+}
